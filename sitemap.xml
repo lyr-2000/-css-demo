@@ -1,63 +1,63 @@
-<?xml-stylesheet type="text/xsl" href="https://lyr-2000.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://lyr-2000.github.io/html-demo/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lyr-2000.github.io/post/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/post/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/categories/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/categories/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/tags/post/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/tags/post/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/categories/post/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/categories/post/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/tags/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/tags/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/</loc>
     <lastmod>2022-05-08T19:10:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/post/sample/sample/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/post/sample/sample/</loc>
     <lastmod>2022-05-08T16:58:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/archives/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/archives/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/search/</loc>
+    <loc>https://lyr-2000.github.io/html-demo/search/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
