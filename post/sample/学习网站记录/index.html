@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>2019-12-18-golang-gin-query-parameters-array-map - 凌冬的前端实验室</title>
+  <title>学习网站记录 - 凌冬的前端实验室</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,17 +16,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="lyr" /><meta name="description" content="测试代码 shortcode test 1 2 3 4 5 6 &amp;lt;h1&amp;gt; hello world &amp;lt;/h1&amp;gt; &amp;lt;h1&amp;gt; hello world &amp;lt;/h1&amp;gt; 1 2 3 body { background:red; } 1 2 // alert(&amp;#39;hello world&amp;#39;);" /><meta name="keywords" content="凌冬的博客, LYR的个人博客, 二次元技术宅" />
+<meta name="author" content="lyr" /><meta name="description" content="学习网站收集 css 学习网站 css trick , 链接 chrome浏览器插件 web maker" /><meta name="keywords" content="凌冬的博客, LYR的个人博客, 二次元技术宅" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.98.0 with theme even" />
+<meta name="generator" content="Hugo 0.99.1 with theme even" />
 
 
-<link rel="canonical" href="https://lyr-2000.github.io/html-demo/post/sample/sample/" />
+<link rel="canonical" href="https://lyr-2000.github.io/html-demo/post/sample/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/html-demo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/html-demo/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/html-demo/favicon-16x16.png">
@@ -42,22 +42,22 @@
 <link rel="stylesheet" href="/html-demo/css/custom.css">
 
 
-<meta property="og:title" content="2019-12-18-golang-gin-query-parameters-array-map" />
-<meta property="og:description" content="测试代码 shortcode test 1 2 3 4 5 6 &lt;h1&gt; hello world &lt;/h1&gt; &lt;h1&gt; hello world &lt;/h1&gt; 1 2 3 body { background:red; } 1 2 // alert(&#39;hello world&#39;);" />
+<meta property="og:title" content="学习网站记录" />
+<meta property="og:description" content="学习网站收集 css 学习网站 css trick , 链接 chrome浏览器插件 web maker" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lyr-2000.github.io/html-demo/post/sample/sample/" /><meta property="og:image" content="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk7froooj31kw0w0hd1.jpg" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-05-08T16:58:48+08:00" />
-<meta property="article:modified_time" content="2022-05-08T16:58:48+08:00" />
+<meta property="og:url" content="https://lyr-2000.github.io/html-demo/post/sample/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/" /><meta property="og:image" content="https://tva2.sinaimg.cn/large/0075auPSly1fqb2vuvfdfj31jk13a1e1.jpg" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-25T16:17:45+08:00" />
+<meta property="article:modified_time" content="2022-05-11T20:02:48+08:00" />
 
-<meta itemprop="name" content="2019-12-18-golang-gin-query-parameters-array-map">
-<meta itemprop="description" content="测试代码 shortcode test 1 2 3 4 5 6 &lt;h1&gt; hello world &lt;/h1&gt; &lt;h1&gt; hello world &lt;/h1&gt; 1 2 3 body { background:red; } 1 2 // alert(&#39;hello world&#39;);"><meta itemprop="datePublished" content="2022-05-08T16:58:48+08:00" />
-<meta itemprop="dateModified" content="2022-05-08T16:58:48+08:00" />
-<meta itemprop="wordCount" content="32"><meta itemprop="image" content="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk7froooj31kw0w0hd1.jpg">
-<meta itemprop="keywords" content="post," /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk7froooj31kw0w0hd1.jpg"/>
+<meta itemprop="name" content="学习网站记录">
+<meta itemprop="description" content="学习网站收集 css 学习网站 css trick , 链接 chrome浏览器插件 web maker"><meta itemprop="datePublished" content="2022-05-25T16:17:45+08:00" />
+<meta itemprop="dateModified" content="2022-05-11T20:02:48+08:00" />
+<meta itemprop="wordCount" content="29"><meta itemprop="image" content="https://tva2.sinaimg.cn/large/0075auPSly1fqb2vuvfdfj31jk13a1e1.jpg">
+<meta itemprop="keywords" content="sample," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://tva2.sinaimg.cn/large/0075auPSly1fqb2vuvfdfj31jk13a1e1.jpg"/>
 
-<meta name="twitter:title" content="2019-12-18-golang-gin-query-parameters-array-map"/>
-<meta name="twitter:description" content="测试代码 shortcode test 1 2 3 4 5 6 &lt;h1&gt; hello world &lt;/h1&gt; &lt;h1&gt; hello world &lt;/h1&gt; 1 2 3 body { background:red; } 1 2 // alert(&#39;hello world&#39;);"/>
+<meta name="twitter:title" content="学习网站记录"/>
+<meta name="twitter:description" content="学习网站收集 css 学习网站 css trick , 链接 chrome浏览器插件 web maker"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -99,6 +99,8 @@
         <li class="mobile-menu-item">标签</li>
       </a><a href="/html-demo/categories/">
         <li class="mobile-menu-item">分类</li>
+      </a><a href="/html-demo/about/">
+        <li class="mobile-menu-item">关于</li>
       </a><a href="/html-demo/friends">
         <li class="mobile-menu-item">友人帐</li>
       </a>
@@ -131,6 +133,8 @@
         <a class="menu-item-link" href="/html-demo/tags/">标签</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/html-demo/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/about/">关于</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/html-demo/friends">友人帐</a>
       </li></ul>
@@ -172,7 +176,7 @@ input.PC_MARK1:focus{
 	
 	<div class="customByLyr">
   
-			<img class="lazyload"  draggable="false"  data-original="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxk7froooj31kw0w0hd1.jpg" />
+			<img class="lazyload"  draggable="false"  data-original="https://tva2.sinaimg.cn/large/0075auPSly1fqb2vuvfdfj31jk13a1e1.jpg" />
 		</div>
 
     <main id="main" class="main">
@@ -181,14 +185,14 @@ input.PC_MARK1:focus{
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">2019-12-18-golang-gin-query-parameters-array-map</h1>
+      <h1 class="post-title">学习网站记录</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2022-05-08 </span>
+        <span class="post-time"> 2022-05-25 </span>
         <div class="post-category">
-            <a href="/html-demo/categories/post/"> post </a>
+            <a href="/html-demo/categories/sample/"> sample </a>
             </div>
-          <span class="more-meta"> 约 32 字 </span>
+          <span class="more-meta"> 约 29 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/html-demo/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -199,13 +203,10 @@ input.PC_MARK1:focus{
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#测试代码">测试代码</a>
+    <li><a href="#学习网站收集">学习网站收集</a>
       <ul>
-        <li>
-          <ul>
-            <li><a href="#shortcode-test">shortcode test</a></li>
-          </ul>
-        </li>
+        <li><a href="#css-学习网站">css 学习网站</a></li>
+        <li><a href="#chrome浏览器插件">chrome浏览器插件</a></li>
       </ul>
     </li>
   </ul>
@@ -214,66 +215,15 @@ input.PC_MARK1:focus{
 </div>
 
     <div class="post-content">
-      <h1 id="测试代码">测试代码</h1>
-<h3 id="shortcode-test">shortcode test</h3>
-
-
-
-
-<div x-iframe-id="1652012532762001109">
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">    hello world
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">    hello world
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">body</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span><span class="kc">red</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// alert(&#39;hello world&#39;);
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
-</div>
-
-<div runCode="1652012532762001109">
-
-
-
-</div>
-
-
-
-
-
+      <h1 id="学习网站收集">学习网站收集</h1>
+<h2 id="css-学习网站">css 学习网站</h2>
+<ul>
+<li>css trick , <a href="https://tva2.sinaimg.cn/large/0075auPSly1fqb2vuvfdfj31jk13a1e1.jpg">链接</a></li>
+</ul>
+<h2 id="chrome浏览器插件">chrome浏览器插件</h2>
+<ul>
+<li>web maker</li>
+</ul>
 
     </div>
 
@@ -285,7 +235,7 @@ input.PC_MARK1:focus{
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2022-05-08
+        2022-05-11
         
     </span>
   </p>
@@ -294,11 +244,15 @@ input.PC_MARK1:focus{
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/html-demo/tags/post/">post</a>
+          <a href="/html-demo/tags/sample/">sample</a>
           </div>
       <nav class="post-nav">
         
-        
+        <a class="next" href="/html-demo/post/js%E9%AB%98%E7%BA%A7/es6%E8%AF%AD%E6%B3%95/">
+            <span class="next-text nav-default">es6语法</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
@@ -311,8 +265,8 @@ input.PC_MARK1:focus{
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
       var gitalk = new Gitalk({
-        id: '2022-05-08 16:58:48 \u002b0800 \u002b0800',
-        title: '2019-12-18-golang-gin-query-parameters-array-map',
+        id: '2022-05-25 16:17:45 \u002b0800 \u002b0800',
+        title: '学习网站记录',
         clientID: '604ae0a4eff099135503',
         clientSecret: '403ff7c3a3ff6a91d905110c91eb1651219b7233',
         repo: 'lyr-2000.github.io',

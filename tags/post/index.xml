@@ -17,14 +17,5 @@
       <description>_index ​</description>
     </item>
     
-    <item>
-      <title>2019-12-18-golang-gin-query-parameters-array-map</title>
-      <link>https://lyr-2000.github.io/html-demo/post/sample/sample/</link>
-      <pubDate>Sun, 08 May 2022 16:58:48 +0800</pubDate>
-      
-      <guid>https://lyr-2000.github.io/html-demo/post/sample/sample/</guid>
-      <description>测试代码 shortcode test 1 2 3 4 5 6 &amp;lt;h1&amp;gt; hello world &amp;lt;/h1&amp;gt; &amp;lt;h1&amp;gt; hello world &amp;lt;/h1&amp;gt; 1 2 3 body { background:red; } 1 2 // alert(&amp;#39;hello world&amp;#39;);</description>
-    </item>
-    
   </channel>
 </rss>
