@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>凌冬的前端实验室</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="LYR" /><meta name="description" content="凌冬的博客" /><meta name="keywords" content="凌冬的博客, LYR的个人博客, 二次元技术宅" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.99.1 with theme even" />
+
+
+<link rel="canonical" href="https://lyr-2000.github.io/html-demo/" />
+  <link href="https://lyr-2000.github.io/html-demo/index.xml" rel="alternate" type="application/rss+xml" title="凌冬的前端实验室" />
+  <link href="https://lyr-2000.github.io/html-demo/index.xml" rel="feed" type="application/rss+xml" title="凌冬的前端实验室" />
+<link rel="apple-touch-icon" sizes="180x180" href="/html-demo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/html-demo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/html-demo/favicon-16x16.png">
+<link rel="manifest" href="/html-demo/manifest.json">
+<link rel="mask-icon" href="/html-demo/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/html-demo/sass/main.min.4d31fe93a248bf2a033aec98b3dca0e0e3f55453ad76230e57f190d60450d008.css" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/html-demo/css/post.css">
+<link rel="stylesheet" href="/html-demo/css/custom.css">
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="凌冬的博客" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://lyr-2000.github.io/html-demo/" />
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="凌冬的博客"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="凌冬的博客"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body >
+  
+  
+  <div>
+    <button class="button pink back">back</button>
+    <button class="button pink go">go</button>
+    <button class="button pink topUrl">top</button>
+    
+  </div>
+  <div id="globalbg"></div>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/html-demo/" class="logo">凌冬的博客</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list"><a href="/html-demo/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/html-demo/post/">
+        <li class="mobile-menu-item">归档页</li>
+      </a><a href="/html-demo/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/html-demo/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/html-demo/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/html-demo/friends">
+        <li class="mobile-menu-item">友人帐</li>
+      </a>
+	
+	
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel" >
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/html-demo/" class="logo">凌冬的博客</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/post/">归档页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/html-demo/friends">友人帐</a>
+      </li></ul>
+</nav>
+
+<style>
+  .mob-docsearch-input {
+	border: 1px solid #ccc;
+	padding: 6px 0px;
+	border-radius: 3px;
+	padding-left:5px;
+	position: relative;
+    vertical-align: top;
+    width: 93%;
+    margin: auto;
+    margin-left: 7px;
+  
+  }
+  input.PC_MARK1{
+	border: 1px solid #ccc;
+	padding: 6px 0px;
+	border-radius: 3px;
+	padding-left:5px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+input.PC_MARK1:focus{
+		border-color: #66afe9;
+		outline: 0;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+</style>
+
+    </header>
+	
+	
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <section id="posts" class="posts">
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/html-demo/post/01.%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/01.go/6.%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/">6.内存管理</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2022-03-12 </span>
+      <div class="post-category">
+          <a href="/html-demo/categories/01.go/"> 01.Go </a>
+          </div>
+        <span class="more-meta"> 约 9047 字 </span>
+        <span class="more-meta"> 预计阅读 19 分钟 </span>
+    </div>
+  </header>
+  <section style="display: flex;">
+	  
+	  <div class="post-content">
+		<div class="post-summary  mathjax_ignore">
+		  6.内存管理 ​ 程序中的数据和变量都会被分配到程序所在的虚拟内存中，内存空间包含两个重要区域：栈区（Stack）和堆区（Heap）。函数调用的
+		</div>
+		<div class="read-more">
+		  <a href="/html-demo/post/01.%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/01.go/6.%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/" class="read-more-link">阅读更多</a>
+		</div>
+	  </div>
+		
+	  
+      
+      
+      
+        <div class="post-content">
+          <img data-original="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxlo645aaj31hc0u07h7.jpg" class="lazyload"  style="max-width: 134px;max-height: 156px;margin-left: 12px;border-radius: 3px;" draggable="false">
+        </div>
+      
+	  
+  </section>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/html-demo/post/01.%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/01.go/8.%E6%A0%87%E5%87%86%E5%BA%93/">8.标准库</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2022-03-12 </span>
+      <div class="post-category">
+          <a href="/html-demo/categories/01.go/"> 01.Go </a>
+          </div>
+        <span class="more-meta"> 约 212 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+    </div>
+  </header>
+  <section style="display: flex;">
+	  
+	  <div class="post-content">
+		<div class="post-summary  mathjax_ignore">
+		  8.标准库 ​ JSON 序列化和反序列化 go的序列化大部分指的是把结构体转换为json数据，在序列化的时候要注意变量名必须要大写，小写字母开头的变量是
+		</div>
+		<div class="read-more">
+		  <a href="/html-demo/post/01.%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/01.go/8.%E6%A0%87%E5%87%86%E5%BA%93/" class="read-more-link">阅读更多</a>
+		</div>
+	  </div>
+		
+	  
+      
+      
+      
+        <div class="post-content">
+          <img data-original="https://tva2.sinaimg.cn/large/0072Vf1pgy1foxlnr1pdmj31hc0u0h1c.jpg" class="lazyload"  style="max-width: 134px;max-height: 156px;margin-left: 12px;border-radius: 3px;" draggable="false">
+        </div>
+      
+	  
+  </section>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/html-demo/post/08.%E5%85%B6%E4%BB%96/07.%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E7%BC%96%E8%BE%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/">毕业论文编辑注意事项</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2022-03-08 </span>
+      
+        <span class="more-meta"> 约 16 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+    </div>
+  </header>
+  <section style="display: flex;">
+	  
+	  <div class="post-content">
+		<div class="post-summary  mathjax_ignore">
+		  毕业论文编辑注意事项 ​ word 参考文献
+		</div>
+		<div class="read-more">
+		  <a href="/html-demo/post/08.%E5%85%B6%E4%BB%96/07.%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E7%BC%96%E8%BE%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" class="read-more-link">阅读更多</a>
+		</div>
+	  </div>
+		
+	  
+      
+      
+      
+        <div class="post-content">
+          <img data-original="https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkgc5msdj31hc0u01cv.jpg" class="lazyload"  style="max-width: 134px;max-height: 156px;margin-left: 12px;border-radius: 3px;" draggable="false">
+        </div>
+      
+	  
+  </section>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/html-demo/post/03.%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/02_2.408%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%8D%E4%B9%A0/readme/">readme</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2021-08-17 </span>
+      
+        <span class="more-meta"> 约 155 字 </span>
+        <span class="more-meta"> 预计阅读 1 分钟 </span>
+    </div>
+  </header>
+  <section style="display: flex;">
+	  
+	  <div class="post-content">
+		<div class="post-summary  mathjax_ignore">
+		  考研408复习笔记 目的专业：计算机科学与技术 预计考研专业课科目：408 （第一次发现原来gayhub也可以用来存放学习笔记哇） 主要包括408以
+		</div>
+		<div class="read-more">
+		  <a href="/html-demo/post/03.%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/02_2.408%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%8D%E4%B9%A0/readme/" class="read-more-link">阅读更多</a>
+		</div>
+	  </div>
+		
+	  
+  </section>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/html-demo/post/03.%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/02_2.408%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%A4%8D%E4%B9%A0/">计算机网络复习_</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2021-08-17 </span>
+      
+        <span class="more-meta"> 约 16034 字 </span>
+        <span class="more-meta"> 预计阅读 33 分钟 </span>
+    </div>
+  </header>
+  <section style="display: flex;">
+	  
+	  <div class="post-content">
+		<div class="post-summary  mathjax_ignore">
+		  《计算机网络》复习笔记 这个笔记同时使用了两本教材：《计算机网络：自顶向下方法（原书第六版）》和《计算机网络（谢希仁 第七版）》， 目录结构按照自
+		</div>
+		<div class="read-more">
+		  <a href="/html-demo/post/03.%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/02_2.408%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%A4%8D%E4%B9%A0/" class="read-more-link">阅读更多</a>
+		</div>
+	  </div>
+		
+	  
+  </section>
+</article>
+
+    </section>
+  
+  <nav class="pagination">
+    <a class="prev" href="/html-demo/page/2/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text">上一页</span>
+      </a>
+    <a class="next" href="/html-demo/page/4/">
+        <span class="next-text">下一页</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+  </nav>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:lyr-2000@qq.com" class="iconfont icon-email" title="email"></a>
+  <a href="https://lyr-2000.github.io/html-demo/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/html-demo/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/html-demo/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2021-09-23 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>LYR</span>
+  </span>
+</div>
+
+
+
+<script 
+ 
+    src="https://cdn.jsdelivr.net/gh/lyr-2000/live2d-widget@latest/autoload.js"></script>
+
+
+
+
+
+
+
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/html-demo/js/main.min.d80bb5612bb6d76342a910a0d91eb7282583c9d044064c081b753b5f8562d36c.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        tags: 'ams',
+        },
+	  options: {
+		ignoreHtmlClass:'mathjax_ignore',
+	  }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<script src="/html-demo/js/back_btn.js"></script>
+<script src="/html-demo/js/docsearch.min.js"></script>
+<script src="/html-demo/js/lazyload.min.js"></script>
+<script src="/html-demo/js/x-plugin.js"></script>
+
+  
+ 
+  <div id="BR_cornner">
+    <div id='darkThemeBtn'>T</div> 
+  </div> 
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+<script defer async>
+
+  mermaid.initialize({startOnLoad:true});
+</script>
+</body>
+</html>
