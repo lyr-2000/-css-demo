@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nodejs on 凌冬的前端实验室</title>
-    <link>https://lyr-2000.github.io/html-demo/categories/nodejs/</link>
+    <link>https://lyr-2000.github.io/html/categories/nodejs/</link>
     <description>Recent content in Nodejs on 凌冬的前端实验室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>LYR</copyright>
-    <lastBuildDate>Thu, 26 Dec 2019 15:57:32 +0000</lastBuildDate><atom:link href="https://lyr-2000.github.io/html-demo/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2019 15:57:32 +0000</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nodejs递归读取所有文件</title>
-      <link>https://lyr-2000.github.io/html-demo/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/03.%E6%8A%80%E6%9C%AF/03.nodejs/01.nodejs%E9%80%92%E5%BD%92%E8%AF%BB%E5%8F%96%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/</link>
+      <link>https://lyr-2000.github.io/html/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/03.%E6%8A%80%E6%9C%AF/03.nodejs/01.nodejs%E9%80%92%E5%BD%92%E8%AF%BB%E5%8F%96%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/</link>
       <pubDate>Thu, 26 Dec 2019 15:57:32 +0000</pubDate>
       
-      <guid>https://lyr-2000.github.io/html-demo/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/03.%E6%8A%80%E6%9C%AF/03.nodejs/01.nodejs%E9%80%92%E5%BD%92%E8%AF%BB%E5%8F%96%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://lyr-2000.github.io/html/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/03.%E6%8A%80%E6%9C%AF/03.nodejs/01.nodejs%E9%80%92%E5%BD%92%E8%AF%BB%E5%8F%96%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6/</guid>
       <description>nodejs递归读取所有文件 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 var fs = require(&amp;#39;fs&amp;#39;); var path = require(&amp;#39;path&amp;#39;); function readFileList(dir, filesList = []) { const files = fs.readdirSync(dir); console.log(files); files.forEach((item, index) =&amp;gt; { var fullPath = path.join(dir, item); const stat = fs.statSync(fullPath); if (stat.isDirectory()) {</description>
     </item>
     
