@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.101.0 with theme even" />
+<meta name="generator" content="Hugo 0.102.3 with theme even" />
 
 
 <link rel="canonical" href="https://lyr-2000.github.io/html/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/10.vue%E7%AC%94%E8%AE%B0/99.%E5%85%B6%E4%BB%96/80.vue%E4%B8%AD%E7%9A%84%E9%98%B2%E6%8A%96%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/" />
@@ -63,7 +63,7 @@
 <!--[if lt IE 9]>
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
+<![endif]--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 
 </head>
@@ -88,7 +88,9 @@
   </div>
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list"><a href="/html/">
+  <ul class="mobile-menu-list"><li style="display:inline-block;margin-right:10px;">
+			<input type="search" class="mob-docsearch-input" placeholder="Search" />
+		</li><a href="/html/">
         <li class="mobile-menu-item">首页</li>
       </a><a href="/html/post/">
         <li class="mobile-menu-item">归档页</li>
@@ -134,7 +136,9 @@
         <a class="menu-item-link" href="/html/about/">关于</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/html/friends">友人帐</a>
-      </li></ul>
+      </li><li  style="list-style: none;position: relative;left: 360px;bottom: 32px;">
+		<input type="search" class="docsearch-input PC_MARK1" placeholder="Search" />
+	  </li></ul>
 </nav>
 
 <style>
@@ -417,7 +421,27 @@ input.PC_MARK1:focus{
 <script src="/js/back_btn.js"></script>
 <script src="/js/docsearch.min.js"></script>
 <script src="/js/lazyload.min.js"></script>
-
+<script defer="defer" async>
+ 
+  window.addEventListener('load',function() {
+  
+	docsearch({
+		apiKey: "69457f694b37ed88827d35fb73fc20d7",
+		indexName: "blog",
+		appId: "TP76THOQRC",
+		inputSelector: '.docsearch-input',
+		debug: false,
+    });
+    docsearch({
+	 apiKey: "69457f694b37ed88827d35fb73fc20d7",
+	 indexName: "blog",
+	 appId: "TP76THOQRC",
+	 inputSelector: '.mob-docsearch-input',
+	 debug: false,
+    });
+  });
+ 
+</script>
   
  
   <div id="BR_cornner">
