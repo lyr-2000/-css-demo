@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>LYR</copyright>
-    <lastBuildDate>Thu, 20 Feb 2020 17:24:29 +0000</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Oct 2022 22:41:49 +0800</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>icon图标处理方案</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/icon%E5%9B%BE%E6%A0%87%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Wed, 05 Oct 2022 22:41:49 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/icon%E5%9B%BE%E6%A0%87%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/</guid>
+      <description>自定义组件处理 图标 参考博客 自定义组件处理 自定义 svg图标形式 自定义组件的能力： 显示外部svg图标 显示项目内svg图标 1 2 3 4 5 6 7 8 9 10 11 12</description>
+    </item>
+    
+    <item>
+      <title>vue3样式穿透vdeep</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/vue3%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8Fvdeep/</link>
+      <pubDate>Wed, 05 Oct 2022 22:00:03 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/vue3%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8Fvdeep/</guid>
+      <description>项目引入 element-plus 1 vue add element-plus @vue/cli 在帮助我们创建项目的同时，也生成了很多无用的代码，那么这一小节我们需要去除掉这些无用的代码。 router/index.js 中初始化代码如下： 1 2 3 4</description>
+    </item>
+    
     <item>
       <title>Vue CLi v3 创建项目使用记录</title>
       <link>https://lyr-2000.github.io/html/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/10.vue%E7%AC%94%E8%AE%B0/05.%E5%B7%A5%E5%85%B7/10.vue-cli-v3-%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>

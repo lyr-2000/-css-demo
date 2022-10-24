@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>h5必知必会 on 凌冬的前端实验室</title>
+    <link>https://lyr-2000.github.io/html/categories/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</link>
+    <description>Recent content in h5必知必会 on 凌冬的前端实验室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>LYR</copyright>
+    <lastBuildDate>Tue, 06 Sep 2022 21:26:07 +0800</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/categories/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js串行和事件循环</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/js%E4%B8%B2%E8%A1%8C%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</link>
+      <pubDate>Tue, 06 Sep 2022 21:26:07 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/js%E4%B8%B2%E8%A1%8C%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</guid>
+      <description>js事件循环 1 2 3 4 5 setTimeout (function () { console.log(&amp;#34;2&amp;#34;); },500); alert(&amp;#34;----&amp;#34;) ;//如果alert一直不退出，定时器将无法执行 Promise 解决回调地狱问题 See the Pen Untitled by 凌冬 (@lindong) on CodePen. 使用 Promise 解决回调地狱</description>
+    </item>
+    
+    <item>
+      <title>h5新增存储理解</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/h5%E6%96%B0%E5%A2%9E%E5%AD%98%E5%82%A8%E7%90%86%E8%A7%A3/</link>
+      <pubDate>Mon, 05 Sep 2022 23:58:54 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/h5%E6%96%B0%E5%A2%9E%E5%AD%98%E5%82%A8%E7%90%86%E8%A7%A3/</guid>
+      <description>h5新增的存储方案 存储方案对比 存储方案 生命周期 大小限制 cookie 默认是关闭浏览器失效，但是也可以设置过期时间失效 4k左右 (20~50个 cookie现</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>LYR</copyright>
-    <lastBuildDate>Wed, 25 May 2022 16:17:45 +0800</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 23:00:01 +0800</lastBuildDate><atom:link href="https://lyr-2000.github.io/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
       <link>https://lyr-2000.github.io/html/about/</link>
@@ -18,11 +18,74 @@
     </item>
     
     <item>
+      <title>js的bom</title>
+      <link>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%9A%84bom/</link>
+      <pubDate>Mon, 24 Oct 2022 23:00:01 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%9A%84bom/</guid>
+      <description>js bom 对象 clipboard 对象 为了使 JavaScript 更加灵活的操作剪切板，也是为了顺应 JS 发展的历史潮流，Clipboard API 应运而生。它是下一代的剪贴板操作方法，比传统的</description>
+    </item>
+    
+    <item>
+      <title>js类型</title>
+      <link>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Mon, 24 Oct 2022 20:54:46 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%B1%BB%E5%9E%8B/</guid>
+      <description>JS 的类型 基本类型： undefined, null, boolean, number, string , object ,symbol 引用类型： Boolean,Number, String, Symbol, Object ,Array, Map, Set 1 2 3 4 5 6 7 8 9 // 基本类型 typeof(&amp;#34;aa&amp;#34;) typeof(undefined) typeof(Symbol(&amp;#34;aa&amp;#34;)) // 引用类型 new String(&amp;#34;aa&amp;#34;) instanceof String [] instanceof Array 小数转二进制 4.12, 4,0.12 $$ 0.1 2 =</description>
+    </item>
+    
+    <item>
+      <title>icon图标处理方案</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/icon%E5%9B%BE%E6%A0%87%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Wed, 05 Oct 2022 22:41:49 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/icon%E5%9B%BE%E6%A0%87%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/</guid>
+      <description>自定义组件处理 图标 参考博客 自定义组件处理 自定义 svg图标形式 自定义组件的能力： 显示外部svg图标 显示项目内svg图标 1 2 3 4 5 6 7 8 9 10 11 12</description>
+    </item>
+    
+    <item>
+      <title>vue3样式穿透vdeep</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/vue3%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8Fvdeep/</link>
+      <pubDate>Wed, 05 Oct 2022 22:00:03 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/vue3%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8Fvdeep/</guid>
+      <description>项目引入 element-plus 1 vue add element-plus @vue/cli 在帮助我们创建项目的同时，也生成了很多无用的代码，那么这一小节我们需要去除掉这些无用的代码。 router/index.js 中初始化代码如下： 1 2 3 4</description>
+    </item>
+    
+    <item>
+      <title>js串行和事件循环</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/js%E4%B8%B2%E8%A1%8C%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</link>
+      <pubDate>Tue, 06 Sep 2022 21:26:07 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/js%E4%B8%B2%E8%A1%8C%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</guid>
+      <description>js事件循环 1 2 3 4 5 setTimeout (function () { console.log(&amp;#34;2&amp;#34;); },500); alert(&amp;#34;----&amp;#34;) ;//如果alert一直不退出，定时器将无法执行 Promise 解决回调地狱问题 See the Pen Untitled by 凌冬 (@lindong) on CodePen. 使用 Promise 解决回调地狱</description>
+    </item>
+    
+    <item>
+      <title>h5新增存储理解</title>
+      <link>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/h5%E6%96%B0%E5%A2%9E%E5%AD%98%E5%82%A8%E7%90%86%E8%A7%A3/</link>
+      <pubDate>Mon, 05 Sep 2022 23:58:54 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/h5%E6%96%B0%E5%A2%9E%E5%AD%98%E5%82%A8%E7%90%86%E8%A7%A3/</guid>
+      <description>h5新增的存储方案 存储方案对比 存储方案 生命周期 大小限制 cookie 默认是关闭浏览器失效，但是也可以设置过期时间失效 4k左右 (20~50个 cookie现</description>
+    </item>
+    
+    <item>
+      <title>vue3项目学习</title>
+      <link>https://lyr-2000.github.io/html/post/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/vue3%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sun, 04 Sep 2022 10:02:25 +0800</pubDate>
+      
+      <guid>https://lyr-2000.github.io/html/post/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/vue3%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</guid>
+      <description>vite项目构建 1 npm init vite@latest</description>
+    </item>
+    
+    <item>
       <title>学习网站记录</title>
-      <link>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</link>
+      <link>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Wed, 25 May 2022 16:17:45 +0800</pubDate>
       
-      <guid>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</guid>
       <description>学习网站收集 css 学习网站 css trick , 链接 chrome浏览器插件 web maker</description>
     </item>
     
@@ -2849,7 +2912,7 @@
       <pubDate>Wed, 25 Dec 2019 14:27:01 +0000</pubDate>
       
       <guid>https://lyr-2000.github.io/html/friends/</guid>
-      <description>算法学习网站收集 注意，这个是专门学习 算法的文档站，不接受友链，需要友链的请 选择 根节点站 MDN 文档 mdn文档学习网站 css trick 学习css的网站 与我 联系 或</description>
+      <description>算法学习网站收集 注意，这个是专门学习 算法的独立文档站，不接受友链，需要友链的请 选择 根节点站 MDN 文档 mdn文档学习网站 css trick 学习css的网站 与我联</description>
     </item>
     
     <item>

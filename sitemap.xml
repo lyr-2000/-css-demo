@@ -22,7 +22,112 @@
   </url>
   
   <url>
+    <loc>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%9A%84bom/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/tags/js%E9%AB%98%E7%BA%A7/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/categories/js%E9%AB%98%E7%BA%A7/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lyr-2000.github.io/html/tags/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/js%E9%AB%98%E7%BA%A7/js%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/icon%E5%9B%BE%E6%A0%87%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/categories/vue/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/tags/vue/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/vue/vue3%E6%A0%B7%E5%BC%8F%E7%A9%BF%E9%80%8Fvdeep/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/tags/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/categories/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/js%E4%B8%B2%E8%A1%8C%E5%92%8C%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/h5%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/h5%E6%96%B0%E5%A2%9E%E5%AD%98%E5%82%A8%E7%90%86%E8%A7%A3/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/post/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/vue3%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/tags/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-05-11T20:02:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyr-2000.github.io/html/categories/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-05-11T20:02:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -43,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://lyr-2000.github.io/html/post/%E5%85%B6%E4%BB%96%E8%B5%84%E6%96%99/%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-05-11T20:02:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -2194,13 +2299,6 @@
   <url>
     <loc>https://lyr-2000.github.io/html/post/%E6%94%B6%E9%9B%86%E8%B5%84%E6%96%99/09.%E5%89%8D%E7%AB%AF/02.%E9%A1%B5%E9%9D%A2/10.html/10.%E5%B8%B8%E7%94%A8meta%E6%95%B4%E7%90%86/</loc>
     <lastmod>2020-02-21T12:20:10+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://lyr-2000.github.io/html/tags/vue/</loc>
-    <lastmod>2020-02-20T17:24:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
